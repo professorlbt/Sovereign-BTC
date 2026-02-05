@@ -10,11 +10,11 @@ const About = () => {
         <div className="shrink-0 relative group">
           <div className="relative w-40 h-40 md:w-56 md:h-56 rounded-2xl overflow-hidden border-2 border-zinc-800 bg-zinc-900 shadow-2xl transition-all duration-500 group-hover:border-orange-500/50 group-hover:shadow-orange-500/10">
              <img 
-               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80" 
+               src="../images/the_mentor.jpg" 
                alt="Muhammad Khuhro" 
                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
                onError={(e) => {
-                 // Fallback if Unsplash fails
+                 // Fallback if image fails
                  (e.target as HTMLImageElement).src = "https://api.dicebear.com/7.x/avataaars/svg?seed=Muhammad";
                }}
              />
